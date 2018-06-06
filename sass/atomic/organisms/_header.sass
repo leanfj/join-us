@@ -1,0 +1,64 @@
+header
+  &:after
+    content: ""
+    display: block
+    border-bottom: 1px solid $c-gray-3
+    
+.logo
+  text-align: center
+  padding: 20px 0
+  border-bottom: 1px solid $c-gray-3
+.menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 50px
+  @media (max-width: 850px)
+    flex-direction: column
+    height: 100%
+    margin-bottom: 10px
+.login
+  list-style: none
+  display: flex
+  font-size: .8rem
+  &__item
+    a
+      color: $c-gray-6
+      text-decoration: none
+    &:first-child:after
+      content: '|'
+      margin-left: 7px
+      margin-right: 7px
+.produtos
+  display: flex
+  list-style: none
+  text-transform: uppercase
+  font-size: .9rem
+  &__item
+    margin-right: 55px
+    a
+      text-decoration: none
+      color: $c-gray-6
+  &__item:last-child
+    margin-right: 0
+.funcionalidades
+  display: flex
+.busca
+  display: flex
+  align-items: center
+  width: 90px
+  margin-right: 23px
+  border-bottom: 1px solid rgba(104, 104, 104, 0.4);
+  font-size: .8rem
+  &__icon
+    margin-right: 20px
+  &__input
+    display: none
+.carrinho
+  display: flex
+  align-items: center
+  margin-right: 12px
+  font-size: .8rem
+  @media (max-width: 850px)
+    margin-right: 0
+  
