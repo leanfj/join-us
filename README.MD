@@ -58,7 +58,7 @@ Caso contrário, você pode fazer tudo em algum repositório privado e, na entre
 
 # Entrega
 
-Para rodar o porjeto em área de desenvolvimento basta fazer o colone do projeto
+Para rodar o porjeto em área de desenvolvimento 👨‍💻 basta fazer o colone do projeto
 
 ```
 git clone https://github.com/leanfj/join-us.git
