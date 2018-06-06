@@ -1,3 +1,26 @@
+# Entrega
+
+Para rodar o porjeto em área de desenvolvimento 👨‍💻 basta fazer o colone do projeto
+
+```
+git clone https://github.com/leanfj/join-us.git
+```
+
+Estou utilizando o yarn para gerenciar os pacotes.
+Caso queira instalar pode acessar [yarn](https://yarnpkg.com/pt-BR/) e seguir os porcedimentos para instalação.
+
+Apos a instalação concluída rodar o comando `yarn` dentro da pasta do projeto para instalar as dependências
+
+```
+cd join-us
+yarn
+```
+
+Para rodar o projeto basta usar o comando `gulp`
+ele ja vai servir um css minificado a partir de arquivos sass e o js concatenado com as dependencias. O arquivo javascript `main.js`esta na pasta `js` e neste deve ser feito a programação. Para minificar o código javascript utilize o `gulp uglify`
+
+Como live reload utilizei a extensão [Live Server](https://github.com/ritwickdey/live-server-web-extension) do Visual Studio Code.
+
 # Original.io
 
 ###### Quer trabalhar com a gente? Siga as instruções!
@@ -55,26 +78,3 @@ Caso contrário, você pode fazer tudo em algum repositório privado e, na entre
 #### Boa sorte!
 
 **[Original.io](https://original.io)**
-
-# Entrega
-
-Para rodar o porjeto em área de desenvolvimento 👨‍💻 basta fazer o colone do projeto
-
-```
-git clone https://github.com/leanfj/join-us.git
-```
-
-Estou utilizando o yarn para gerenciar os pacotes.
-Caso queira instalar pode acessar [yarn](https://yarnpkg.com/pt-BR/) e seguir os porcedimentos para instalação.
-
-Apos a instalação concluída rodar o comando `yarn` dentro da pasta do projeto para instalar as dependências
-
-```
-cd join-us
-yarn
-```
-
-Para rodar o projeto basta usar o comando `gulp`
-ele ja vai servir um css minificado a partir de arquivos sass e o js concatenado com as dependencias. O arquivo javascript `main.js`esta na pasta `js` e neste deve ser feito a programação. Para minificar o código javascript utilize o `gulp uglify`
-
-Como live reload utilizei a extensão [Live Server](https://github.com/ritwickdey/live-server-web-extension) do Visual Studio Code.
